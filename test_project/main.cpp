@@ -2,16 +2,13 @@
 using namespace std;
 
 int main() {
-    int x = 3;
-    int y = 5;
+    int x = 0;
 
-    if (x > y)
-        cout << "x is greater than y\n";
-    else if (y > x)
-        cout << "y if greater than x\n";
-    else
-        cout << "x and y are equal\n";
-
+    while (x < 10) {
+        x = x + 1;
+        cout << "x is " << x << endl;
+    }
     return 0;
 }
+
 
