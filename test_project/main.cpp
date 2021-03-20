@@ -2,9 +2,11 @@
 using namespace std;
 
 int main() {
-    int x = 3;
-    int y = 5;
-
+    int x,y;
+    
+    cin >> x;
+    cin >> y;
+    
     if (x > y)
         cout << "x is greater than y\n";
     else if (y > x)
