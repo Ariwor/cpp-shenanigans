@@ -1,14 +1,9 @@
 #include <iostream>
+#include "functionTest.h"
+
 using namespace std;
 
 int main() {
-    int x = 0;
-
-    while (x < 10) {
-        x = x + 1;
-        cout << "x is " << x << endl;
-    }
-    return 0;
+    double exampleRun = squareRoot (81); // Function invocation
+    cout << "Square root is" << " " << exampleRun << endl;
 }
-
-
